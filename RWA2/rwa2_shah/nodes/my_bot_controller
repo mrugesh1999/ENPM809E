@@ -18,7 +18,7 @@ parent_frame = 'odom'  # parent frame for the listener
 child_frame = 'base_footprint'  # child frame for the listener
 k_h_gain = 1  # gains for the proportional controllers
 k_v_gain = 1  # These values can be tuned.
-threshold = 0.4      # Threshold for obstacle consideration
+threshold = 0.5      # Threshold for obstacle consideration
 last_rotation = [0]  # Initializing list to keep track of last rotation
 
 try:
