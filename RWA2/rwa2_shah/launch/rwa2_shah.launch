@@ -1,0 +1,7 @@
+<launch>
+<!-- Launch gazebo -->
+<include file="/opt/ros/melodic/share/turtlebot3_gazebo/launch/turtlebot3_world.launch">
+<arg name="x_pos" value="-2" />
+<arg name="y_pos" value="0" />
+</include>
+</launch>
